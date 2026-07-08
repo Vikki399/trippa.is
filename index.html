@@ -1,3 +1,44 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychedelic.is - Upplýsingar um lyf og sálfræðiefni</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <nav class="bg-black p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-green-400">Psychedelic.is</h1>
+            <div class="flex gap-6">
+                <a href="index.html" class="hover:text-green-400">Heim</a>
+                <a href="#efni" class="hover:text-green-400">Efni</a>
+                <a href="about.html" class="hover:text-green-400">Um okkur</a>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="bg-gradient-to-r from-green-800 to-purple-900 py-20 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-5xl font-bold mb-4">Upplýsingar um sálfræðiefni og ólögleg efni</h2>
+            <p class="text-xl text-gray-300">Harm reduction á íslensku - Svipað og Erowid og Tripsit</p>
+            <p class="mt-4 text-sm text-gray-400">Athugið: Þetta er upplýsingavefur fyrir skaðaminnkun. Notkun ólöglegra efna er á ábyrgð notanda.</p>
+        </div>
+    </header>
+
+    <section id="efni" class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-4xl font-bold mb-8 text-center">Vinsæl efni</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Cards will be added via JS or manually -->
+        </div>
+    </section>
+
+    <footer class="bg-black py-8 text-center text-gray-400">
+        <p>Upplýsingar byggðar á almennri þekkingu og opinberum heimildum. Hafðu samband við heilbrigðisstarfsfólk.</p>
+    </footer>
 <script>
 const substances = [
     { name: "LSD", slug: "lsd", desc: "Lysergic acid diethylamide - klassískt sálfræðiefni" },
@@ -26,3 +67,5 @@ substances.forEach(sub => {
     grid.appendChild(card);
 });
 </script>
+</body>
+</html>
