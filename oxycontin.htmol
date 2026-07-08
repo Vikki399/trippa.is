@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OxyContin - Trippa.is</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <nav class="bg-black p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold text-red-500">Trippa.is</a>
+        </div>
+    </nav>
+
+    <div class="max-w-4xl mx-auto px-4 py-8">
+        <div class="bg-red-950 border-2 border-red-600 p-8 rounded-3xl mb-8">
+            <h1 class="text-4xl font-bold text-red-400">⚠️ OxyContin (Oxycodone)</h1>
+            <p class="text-xl text-red-300 mt-4">Sterkt ópíóíð lyf – mikil hætta á ofskömmtun</p>
+        </div>
+
+        <div class="prose prose-invert max-w-none">
+            <h2>Skammtar (oral)</h2>
+            <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Létt:</strong> 5-15 mg (fyrir óvanan)</li>
+                <li><strong>Miðlungs:</strong> 20-40 mg</li>
+                <li><strong>Sterkt:</strong> 60+ mg (hættulegt)</li>
+            </ul>
+
+            <h2>Áhrif</h2>
+            <p><strong>Duration:</strong> 4-6 klst</p>
+            <p>Starkur verkjalindun, euforía, slakandi áhrif og hætta á öndunarstoppi.</p>
+
+            <div class="bg-red-900 p-6 rounded-2xl mt-8">
+                <h3 class="font-bold text-red-300">⚠️ ALVARLEG VARÚÐ</h3>
+                <ul class="list-disc pl-6 text-red-200 space-y-1">
+                    <li>Mjög há ávanabinding</li>
+                    <li>Há hætta á ofskömmtun og dauða (sérstaklega ef blandað áfengi eða bensódíazepín)</li>
+                    <li><strong>Naloxone (Narcan)</strong> getur bjargað lífi við ofskömmtun</li>
+                </ul>
+            </div>
+
+            <div class="mt-12 text-sm text-gray-400 border-t border-gray-700 pt-6">
+                <p><strong>Hjálp:</strong> Vogur, SÁÁ, Rauði Krossinn eða sími 1717.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
